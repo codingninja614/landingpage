@@ -161,21 +161,7 @@ a:hover, a:visited, a:link, a:active
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 38px;
-    margin-right: 38px;
-    font-size: 28px;
-    color:white;
-}
-h1:hover{
-    color:orange;
-    font-family: 'Baloo Bhai', cursive;
-    font-size: 32;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+
 .brand-name div {
     position: absolute;
     top: 50%;
@@ -188,5 +174,27 @@ h5{
 }
 h5:hover{
     color:white;
-    
 }
+
+ .languages li .japanese { 
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    font-size: 26px;
+
+}
+.languages li .english { display: none; }
+
+.languages li:hover .english { 
+    display: block;
+    font-size: 30px;
+    color:orange;
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Baloo Bhai', cursive;
+ }
+
+.languages li:hover .japanese { display: none; }
